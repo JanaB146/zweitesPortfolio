@@ -131,7 +131,7 @@ body {
 .links a:hover {
     color:#45f3ff;
 }
-input[type="submit"] {
+button[type="submit"] {
     border:none;
     outline: none;
     background: #45f3ff;
@@ -142,6 +142,6 @@ input[type="submit"] {
     font-weight: 600;
     cursor:pointer;
 }
-input[type="submit"] {
+button[type="submit"] {
     opacity:0.8;
 }

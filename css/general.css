@@ -3,18 +3,18 @@
     font-family: sans-serif;
 }
 body {
-    max-width: 1250px;
+    /*max-width: 1250px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 auto;*/
+    background:linear-gradient(to left, #3c3e49, #40424e, #424557,#2e2f38, #23242a, #23242a, #23242a, #23242a) ;
     font-family: sans-serif;
     min-height: 100vh;
     display:flex;
     flex-direction: column;
 }
 .part {
-    background-color: #23242a;
-    max-width: 1250px;
-    width: 100%;
+    /*max-width: 1250px;
+    width: 100%;*/
     margin: 0 auto;
     font-family: sans-serif;
     min-height: 100vh;

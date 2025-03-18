@@ -60,6 +60,9 @@ list a:hover {
     margin:20px 0px 20px 0px;
     padding: 10px 0px 20px 0px;
 }
+#erklärung {
+    color:black;
+}
 .bloecke {
     width: 1250px;
     margin: 6px;
