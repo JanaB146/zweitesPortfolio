@@ -1,0 +1,49 @@
+footer {
+    margin-top: auto;
+}
+#downleiste {
+    background-color: #1c1c1c;
+    max-width:1250px;
+    width:100%;
+    height: 65px;
+}
+#downleiste li {
+    color:white;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 10px 0px 10px;
+    position:relative;
+}
+#topleiste a:link {
+    color:white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 20px 10px 20px 10px;
+}
+#topleiste a:visited {
+    color:white;
+    text-decoration: none;
+}
+#topleiste a:hover {
+    color:black;
+    background-color: white;
+    text-decoration: none;
+}
+#downleiste a:hover {
+    text-decoration: none;
+}
+.linkeliste {
+    display:flex;
+    align-items:center;
+}
+.rechts {
+    margin-left:auto;
+}
+.rechtsicon {
+    margin-left:auto;
+    padding-bottom:8px;
+    border:solid #45f3ff 0.5px;
+    border-radius:8px;
+}
+

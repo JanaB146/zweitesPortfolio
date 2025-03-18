@@ -1,0 +1,89 @@
+#about-me {
+    height: auto;
+    padding: 80px;
+    align-content: flex-start;
+    justify-content: center;
+    display:inline-block;
+    top:-500px;
+}
+#bildung {
+    height: auto;
+    float:left;
+    margin:20px 0px 20px 0px;
+}
+.bild {
+    padding:30px;
+}
+.skillbloecke {
+    width: 1250px;
+    margin: 6px;
+    float: left;
+    height:300px;
+    width:100%;
+}
+#skillblock {
+    background-color: white;
+    width: 280px;
+    padding: 60px;
+    margin-bottom: 1px;
+    border-radius:2%;
+}
+#stage {
+    height: auto;
+    float:left;
+    margin:20px 0px 20px 0px;
+    padding: 10px 0px 20px 0px;
+}
+#documents {
+    height: auto;
+    width:100%;
+    float:left;
+    margin:20px 0px 20px 0px;
+    padding: 10px 0px 20px 0px;
+}
+.list li{ 
+    list-style: none;
+    padding: 20px;
+}
+.list a:link {
+    color:black;
+}
+.list a:visited {
+    color:black;
+}
+list a:hover {
+    background-color:#c8b18a;
+}
+#projects {
+    height: auto;
+    float:left;
+    margin:20px 0px 20px 0px;
+    padding: 10px 0px 20px 0px;
+}
+.bloecke {
+    width: 1250px;
+    margin: 6px;
+    float: left;
+    height:600px;
+    width:100%;
+}
+#grauerblock {
+    background-color: white;
+    width: 280px;
+    padding: 10px;
+    margin-bottom: 1px;
+    border-radius:2%;
+}
+#reviews {
+    height: auto;
+    float:left;
+    margin:20px 0px 20px 0px;
+    padding: 10px 0px 20px 0px;
+}
+.contact {
+    text-align: center;
+}
+.contact li{
+    list-style: none;
+    position:relative;
+}
