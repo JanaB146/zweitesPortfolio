@@ -1,18 +1,15 @@
 * {
-    box-sizing:border-box;
     font-family: sans-serif;
+    box-sizing:border-box;
 }
 body {
-    /*max-width: 1250px;
-    width: 100%;
-    margin: 0 auto;*/
     background:linear-gradient(to left, #40424e, #23242a, #23242a, #23242a, #23242a, #3c3e49) ;
     font-family: sans-serif;
     min-height: 100vh;
     display:flex;
     flex-direction: column;
 }
-.part {
+#part {
     max-width: 1250px;
     width: 100%;
     background-color: #23242a;
@@ -47,11 +44,4 @@ p, h1, h2, h3, tr, li, a {
 hr {
     margin-top:50px;
     color: #45f3ff;
-}
-.icon {
-    padding:5px;
-    margin:5px;
-    padding-left:40px;
-    border:solid #45f3ff 0.5px;
-    border-radius:8px;
 }
