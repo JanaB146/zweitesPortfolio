@@ -7,68 +7,65 @@
         <link rel="stylesheet" href="./css/general.css">
         <link rel="stylesheet" href="./css/first-page.css">
         <link rel="stylesheet" href="./css/pages.css">
+        <script src="./main.js"></script>
     </head>
     <body>
         <div class="part">
-            <div id="topleiste">
-                <ul class="linkeliste">
-                    <li><a href="index.html">
-                        Startseite</a></li>
-                    <li><a href="stage.html">
-                        Praktikum</a></li>
-                    <li><a href="about_me.html"
-                        >Über mich</a></li>
-                    <li><a href="lebenslauf.html">
-                        Lebenslauf</a></li>
-                    <li><a href="documents.html">
-                        Dokumente</a></li>
-                    <li id="current"><a href="projects.html">
-                        Projekte</a></li>
-                    <li><a href="reviews.html">
-                        Bewertungen</a></li>
-                    <li class="rechts"><a href="kontakt.html">
-                        Kontakt</a></li>  
-                </ul>
-            </div>
-            <section id="projects">
+            <div id="projects">
+                <div class="popup"  onclick="sidebar()"><img src="./pics/menue.png" height=80px>
+                    <span class="popuptext" id="myPopup">
+                        <ul id="nav-menue">
+                            <li><a href="./index.html">Startseite</a></li>
+                            <li><a href="stage.html">Praktikum</a></li>
+                            <li><a href="about_me.html">Über mich</a></li>
+                            <li><a href="lebenslauf.html">Lebenslauf</a></li>
+                            <li><a href="documents.html">Dokumente</a></li>
+                            <li><a href="projects.html">Projekte</a></li>
+                            <li><a href="reviews.html">Bewertungen</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>  
+                        </ul>
+                    </span>
+                </div>
                 <hr class="dick">
                 <h2 class="mittig">Projekte</h2>
                 <hr class="dick">
-                <div class="bloecke" id="grauerblock">
-                    <h3 class="mittig" id="erklärung">Spieleseite</h3>
-                    <p id="erklärung">Auf dieser Seite befinden sich Links zu verschiedenen kleinen Spielen, die ich im Laufe des Unterrichts jeweils mit dem neu erlernten erstellt habe.</p>
-                    <a href="https://janab146.github.io/Games/"><img src="./pics/fun.PNG" height="250px"></a>
-                    <p id="erklärung">Viel Spaß!</p>
+                <div id="grauerblock">
+                    <div class="bloecke">
+                        <h3 class="mittig erklärung">Spieleseite</h3>
+                        <p class="erklärung">Auf dieser Seite befinden sich Links zu verschiedenen kleinen Spielen, die ich im Laufe des Unterrichts jeweils mit dem neu erlernten erstellt habe.</p>
+                        <a href="https://janab146.github.io/Games/" target="_blank"><img src="./pics/fun.PNG" height="250px"></a>
+                        <p class="erklärung">Viel Spaß!</p>
+                    </div>
+                    <div class="bloecke">
+                        <h3 class="mittig erklärung">Arduino-Einlasskontrolle</h3>
+                        <p class="erklärung">Hier hab ich das und das studiert weil es mich aus dem und dem Grund interessiert hat.</p>
+                        <img src="./pics/arduino.jpg">
+                    </div>
+                    <div class="bloecke">
+                        <h3 class="mittig erklärung">Entscheidungsabenteuer (Python)</h3>
+                        <p class="erklärung">Hier hab ich das und das studiert weil es mich aus dem und dem Grund interessiert hat.</p>
+                        <img src="./pics/arduino.jpg">
+                    </div>
+                    <div class="bloecke">
+                        <h3 class="mittig erklärung">Einkommenssteuerrechner</h3>
+                        <p class="erklärung">Hier hab ich das und das studiert weil es mich aus dem und dem Grund interessiert hat.</p>
+                        <img src="./pics/arduino.jpg">
+                    </div>
                 </div>
-                <div class="bloecke" id="grauerblock">
-                    <h3 class="mittig">Arduino-Einlasskontrolle</h3>
-                    <p>Hier hab ich das und das studiert weil es mich aus dem und dem Grund interessiert hat.</p>
-                    <img src="./pics/arduino.jpg">
-                </div>
-                <div class="bloecke" id="grauerblock">
-                    <h3 class="mittig">Entscheidungsabenteuer (Python)</h3>
-                    <p>Hier hab ich das und das studiert weil es mich aus dem und dem Grund interessiert hat.</p>
-                    <img src="./pics/arduino.jpg">
-                </div>
-                <div class="bloecke" id="grauerblock">
-                    <h3 class="mittig">Einkommenssteuerrechner</h3>
-                    <p>Hier hab ich das und das studiert weil es mich aus dem und dem Grund interessiert hat.</p>
-                    <img src="./pics/arduino.jpg">
-                </div>
-            </section>
+            </div>
             <footer>
-                <div id="downleiste"> 
-                    <ul class="linkeliste">
-                        <li><img class="icon" src="./pics/telefon.png" width="20px"></li>
-                        <li><a>0157 33941739</a></li>
-                        <li><img class="icon" src="./pics/mail.png" width="20px"></li>
-                        <li><a>jana.bogner@gmx.de</a></li>
-                        <li class="rechtsicon" class="topleiste"><a href="https://www.linkedin.com/in/jana-bogner-02396a14a/">
-                            <img src="./pics/linkedin_white.png" width="20px"></a></li>     
-                            <li class="icon" class="topleiste"><a href="https://www.xing.com/profile/Jana_Bogner2/web_profiles?expandNeffi=true">
-                                <img src="./pics/xing_white.png" width="20px"></a></li> 
-                    </ul>
-                </div>
+            <div id="downleiste"> 
+                <ul class="linkeliste">
+                    <li><img class="icon" src="./pics/phone.png"></li>
+                    <li><a>0157 33941739</a></li>
+                    <li><img class="icon" src="./pics//mail.png"></li>
+                    <li><a>jana.bogner@gmx.de</a></li>
+                    <li class="rechtsicon" class="topleiste"><a href="https://www.linkedin.com/in/jana-bogner-02396a14a/">
+                        <img src="./pics/linkedin_white.png"></a></li>     
+                        <li class="icon" class="topleiste"><a href="https://www.xing.com/profile/Jana_Bogner2/web_profiles?expandNeffi=true">
+                            <img src="./pics/xing_white.png"></a></li> 
+                </ul>
+            </div>
             </footer>
         </div>
     </body>

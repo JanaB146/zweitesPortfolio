@@ -1,6 +1,5 @@
 * {
     font-family: sans-serif;
-    box-sizing:border-box;
 }
 body {
     background:linear-gradient(to left, #40424e, #23242a, #23242a, #23242a, #23242a, #3c3e49) ;
@@ -44,4 +43,10 @@ p, h1, h2, h3, tr, li, a {
 hr {
     margin-top:50px;
     color: #45f3ff;
+    flex:none;
+    width:100%;
+}
+#quer {
+    display: flex;
+    flex-direction: column;
 }

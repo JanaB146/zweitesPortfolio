@@ -8,31 +8,25 @@
         <link rel="stylesheet" href="./css/general.css">
         <link rel="stylesheet" href="./css/first-page.css">
         <link rel="stylesheet" href="./css/pages.css">
+        <script scr="./main.js"></script>
     </head>
     <body>
-        <div class="part">
-            <div id="topleiste">
-                <ul class="linkeliste">
-                    <li><a href="index.html">
-                        Startseite</a></li>
-                    <li><a href="stage.html">
-                        Praktikum</a></li>
-                    <li id="current"><a href="about-me.html"
-                        >Über mich</a></li>
-                    <li><a href="lebenslauf.html">
-                        Lebenslauf</a></li>
-                    <li><a href="documents.html">
-                        Dokumente</a></li>
-                    <li><a href="projects.html">
-                        Projekte</a></li>
-                    <li><a href="reviews.html">
-                        Bewertungen</a></li>
-                    <li class="rechts"><a href="kontakt.html">
-                        Kontakt</a></li>  
+        <div class="popup"  onclick="sidebar()"><img src="./pics/menue.png" height=80px>
+            <span class="popuptext" id="myPopup">
+                <ul id="nav-menue">
+                    <li><a href="./index.html">Startseite</a></li>
+                    <li><a href="stage.html">Praktikum</a></li>
+                    <li><a href="about_me.html">Über mich</a></li>
+                    <li><a href="lebenslauf.html">Lebenslauf</a></li>
+                    <li><a href="documents.html">Dokumente</a></li>
+                    <li><a href="projects.html">Projekte</a></li>
+                    <li><a href="reviews.html">Bewertungen</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>  
                 </ul>
-            </div>
-            
-            <section id="about-me">
+            </span>
+        </div>
+        <div class="part">
+            <div id="about-me">
                 <div>
                     <hr class="dick">
                     <div class="mittig"><h3>Über mich</h3></div>
@@ -67,8 +61,8 @@
                         <br>Nun ist es so, dass ich von morgens bis abends nicht anderes machen müsste, um glücklich und zufrieden zu sein.</p>
                     </div>
                 </div>
-            </section>
-            <section>
+            </div>
+            <div>
                 <div class="skillbloecke" id="skillblock">
                     <ul class="list">
                         <li><h3>Softskills</h3></li>
@@ -87,7 +81,7 @@
                         <li>Hartnäckigkeit</li>
                     </ul>
                 </div>
-            </section>
+            </div>
             <footer>
                 <div id="downleiste"> 
                     <ul class="linkeliste">

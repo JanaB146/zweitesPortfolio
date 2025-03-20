@@ -6,29 +6,24 @@
         <link rel="stylesheet" href="./css/general.css">
         <link rel="stylesheet" href="./css/first-page.css">
         <link rel="stylesheet" href="./css/pages.css">
+        <script src="./main.js"></script>
     </head>
     <body>
-        <div class="part">
-            <div id="topleiste">
-                <ul class="linkeliste">
-                    <li><a href="index.html">
-                        Startseite</a></li>
-                    <li><a href="stage.html">
-                        Praktikum</a></li>
-                    <li><a href="about_me.html"
-                        >Über mich</a></li>
-                    <li><a href="lebenslauf.html">
-                        Lebenslauf</a></li>
-                    <li><a href="documents.html">
-                        Dokumente</a></li>
-                    <li><a href="projects.html">
-                        Projekte</a></li>
-                    <li id="current"><a href="reviews.html">
-                        Bewertungen</a></li>
-                    <li class="rechts"><a href="kontakt.html">
-                        Kontakt</a></li>  
+        <div class="popup"  onclick="sidebar()"><img src="./pics/menue.png" height=80px>
+            <span class="popuptext" id="myPopup">
+                <ul id="nav-menue">
+                    <li><a href="./index.html">Startseite</a></li>
+                    <li><a href="stage.html">Praktikum</a></li>
+                    <li><a href="about_me.html">Über mich</a></li>
+                    <li><a href="lebenslauf.html">Lebenslauf</a></li>
+                    <li><a href="documents.html">Dokumente</a></li>
+                    <li><a href="projects.html">Projekte</a></li>
+                    <li><a href="reviews.html">Bewertungen</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>  
                 </ul>
-            </div>
+            </span>
+        </div>
+        <div class="part">
             <section id="reviews">
                 <hr class="dick">
                 <div class="mittig"><h3>Bewertungen</h3></div>

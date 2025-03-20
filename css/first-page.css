@@ -37,7 +37,7 @@
 #ueberschrift {
     font-size: 5rem;
     background: linear-gradient(to left,#45f3ff, #2d96d3, #1b4888, #3288d4, #254d9b, #45f3ff);
-    -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     position:absolute;
     right:240px;
@@ -110,18 +110,27 @@
     padding:10px;
     border-radius: 7px;
 }
-
 #box {
     display: flex;
+    flex-wrap: wrap;
 }
 #about-me {
     margin: 80px auto;
+    max-width:500px;
 }
 #topbox {
     margin:100px 170px 50px 0px;
     font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
 }
 #topbox p {
     font-size: 20px;
+}
+#kontakt-eins li {
+    list-style: none;
+    padding:10px;
 }
 
