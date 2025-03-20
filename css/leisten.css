@@ -4,6 +4,7 @@ footer {
 #downleiste {
     max-width:1250px;
     width:100%;
+    display: flex;
     align-self: flex-end;
     justify-self: end;
 }

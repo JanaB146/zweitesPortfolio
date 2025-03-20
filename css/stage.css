@@ -1,0 +1,161 @@
+body {
+    background:linear-gradient(to left, #40424e, #23242a, #23242a, #23242a, #23242a, #3c3e49) ;
+    font-family: sans-serif;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+.part {
+    max-width: 1250px;
+    width: 100%;
+    background-color: #23242a;
+    margin: 0 auto;
+    font-family: sans-serif;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+}
+hr {
+    margin-top:50px;
+    color: #45f3ff;
+    flex:none;
+    width:100%;
+}
+.mittig {
+    font-size: 5rem;
+    background: linear-gradient(to left,#45f3ff, #2d96d3, #1b4888, #3288d4, #254d9b, #45f3ff);
+    background-clip: text;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    margin:50px;
+}
+li h3 {
+    display: flex;
+    justify-content: start;
+}
+p, h3 {
+    color:white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+p {
+    font-size: 1.5rem;
+}
+h3 {
+    font-size:2rem;
+}
+
+.linkeliste {
+    display:flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    align-self: flex-end;
+}
+.linkeliste li {
+    list-style:none;
+}
+.liste li {
+    list-style:circle;
+    color:white;
+    font-size: 1.5rem;
+}
+.liste {
+    color:white;
+}
+a {
+    text-decoration: none;
+    color: white;
+    padding:20px;
+}
+a:visited {
+    color:white;
+}
+a:hover {
+    transform:scale(2);
+    color:rgb(169, 228, 236);
+}
+.popup {
+    display: flex;
+    justify-content: flex-end;
+    position:relative;
+    cursor: pointer;
+    border-radius: 8px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: auto;
+    background-color: #40424ec7;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    top: 125%;
+    margin-left: -80px;
+    position: absolute;
+}
+#nav-menue li {
+    list-style: none;
+    padding:10px;
+    font-size: 2rem;
+}
+#nav-menue a:link {
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    padding:0px 10px 0px 10px;
+}
+#nav-menue a:visited {
+    color:white;
+}
+#nav-menue a:hover {
+    color:#4a97f0;
+    padding:10px;
+    border-radius: 7px;
+}
+.hover:hover {
+    transform:scale(1.5);
+}
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 60%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  transparent transparent #555 transparent;
+}
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+.popup:hover .show {
+    /*transform:scale(2);*/
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+  /* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+#stage, .topbox, #documents, #reviews {
+    margin: 40px 80px 100px 80px;
+}

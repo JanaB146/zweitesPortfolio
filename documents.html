@@ -3,59 +3,57 @@
         <meta charset="UTF-8">
 
         <title>Dokumente</title>
-        <link rel="stylesheet" href="./css/leisten.css">
-        <link rel="stylesheet" href="./css/general.css">
-        <link rel="stylesheet" href="./css/first-page.css">
-        <link rel="stylesheet" href="./css/pages.css">
+        <link rel="stylesheet" href="./css/stage.css">
         <script src="./main.js"></script>
     </head>
     <body>
-        <div class="popup"  onclick="sidebar()"><img src="./pics/menue.png" height=80px>
-            <span class="popuptext" id="myPopup">
-                <ul id="nav-menue">
-                    <li><a href="./index.html">Startseite</a></li>
-                    <li><a href="stage.html">Praktikum</a></li>
-                    <li><a href="about_me.html">Über mich</a></li>
-                    <li><a href="lebenslauf.html">Lebenslauf</a></li>
-                    <li><a href="documents.html">Dokumente</a></li>
-                    <li><a href="projects.html">Projekte</a></li>
-                    <li><a href="reviews.html">Bewertungen</a></li>
-                    <li><a href="kontakt.html">Kontakt</a></li>  
-                </ul>
-            </span>
-        </div>
         <div class="part">
+            <div class="popup"  onclick="sidebar()"><img src="./pics/menue.png" height=80px>
+                <span class="popuptext" id="myPopup">
+                    <ul id="nav-menue">
+                        <li><a class="hover" href="./index.html">Startseite</a></li>
+                        <li><a class="hover" href="stage.html">Praktikum</a></li>
+                        <li><a class="hover" href="about_me.html">Über mich</a></li>
+                        <li><a class="hover" href="lebenslauf.html">Lebenslauf</a></li>
+                        <li><a class="hover" href="documents.html">Dokumente</a></li>
+                        <li><a class="hover" href="projects.html">Projekte</a></li>
+                        <li><a class="hover" href="reviews.html">Bewertungen</a></li>
+                        <li><a class="hover" href="kontakt.html">Kontakt</a></li>  
+                    </ul>
+                </span>
+            </div>
             <div id="documents">
-                <hr class="dick">
-                <div class="mittig"><h3>Dokumente</h3></div>
-                <hr class="dick">
-                <div class="list">
+                <hr>
+                <div class="mittig">Dokumente</div>
+                <hr>
+                <div class="linkeliste">
                     <ol>
-                        <li><h2>Bewerbungsdokumente</h2></li>
-                        <ul>
+                        <li><h3>Bewerbungsdokumente</h3></li>
+                        <ul class="liste">
                             <li><a href="./documents/Lebenslauf_Bogner_Jana.pdf">Lebenslauf</a></li>
                         </ul>
-                        <hr class="strich">
+                        <hr>
                         <li>
-                            <li><h2>Zeugnisse</h2></li>
+                            <li><h3>Zeugnisse</h3></li>
                         </li>
-                        <ul>
+                        <ul class="liste">
                             <li><a href="./documents/Zwischenzeugnis_JanaBogner_03-02-2025.pdf">GFN Transcript of Records</a></li>
                             <li><a href="">Bachelorzeugnis</a></li>
                             <li><a href="">Abiturzeugnis</a></li>
                         </ul>
                         <hr>
-                        <li><h2>Arbeitszeugnisse</h2></li>
-                        <ul>
+                        <li><h3>Arbeitszeugnisse</h3></li>
+                        <ul class="liste">
                             <li><a href="">Arbeitszeugnis MaM</a></li>
                             <li><a href="">Arbeitszeugnis CandC</a></li>
                         </ul>
                         <hr>
-                        <li><h2>Zertifikate</h2></li>
-                        <ul>
+                        <li><h3>Zertifikate</h3></li>
+                        <ul class="liste">
                             <li><a href="./documents/SCRUM Zertifikat.pdf">SCRUM Foundation Certificate</a></li>
-                            <li>Python Entry Level Certificate - TO COME</li>
+                            <li><a>Python Entry Level Certificate - TO COME</a></li>
                         </ul>
+                        <hr>
                     </ol>
                 </div>
             </div>
