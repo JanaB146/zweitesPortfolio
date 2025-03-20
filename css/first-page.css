@@ -129,8 +129,14 @@
 #topbox p {
     font-size: 20px;
 }
-#kontakt-eins li {
-    list-style: none;
-    padding:10px;
+.kontakt-eins {
+    margin-left: 60px;
 }
-
+.icon-eins {
+    margin:10px;
+    height:30px;
+}
+.icon-eins:hover {
+    display: inline-block;
+    height:35px;
+}
