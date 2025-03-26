@@ -34,13 +34,13 @@ li h3 {
     display: flex;
     justify-content: start;
 }
-p, h3 {
+p, h3, td {
     color:white;
     display: flex;
     justify-content: center;
     text-align: center;
 }
-p {
+p, td {
     font-size: 1.5rem;
 }
 h3 {
