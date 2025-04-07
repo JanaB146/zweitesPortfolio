@@ -15,7 +15,6 @@
     margin-left:50px;
     flex-basis: 80px;
 }
-
 #text {
     font-size: 20px;
     color:#4a97f0;
@@ -173,10 +172,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-a:hover {
-    transform:scale(1.5);
-    color:rgb(169, 228, 236);
 }
 .linkeliste {
     display:flex;
