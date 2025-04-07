@@ -54,10 +54,8 @@ h3 {
 .linkeliste {
     display:flex;
     color: white;
-    align-items: center;
     justify-content: space-around;
-    display: flex;
-    align-self: flex-end;
+    align-self:flex-end;
 }
 .linkeliste li {
     list-style:none;
@@ -65,7 +63,6 @@ h3 {
 }
 .untere-leiste-divs {
     display:flex;
-    justify-content: space-around;
 }
 .liste li {
     list-style:circle;
@@ -182,4 +179,9 @@ a:hover {
     display: flex;
     flex-direction: column;
     margin:20px;
+}
+.bloecke {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
