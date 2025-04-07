@@ -30,6 +30,11 @@ hr {
     justify-content: center;
     margin:50px;
 }
+.text {
+    font-size:22px;
+    padding:10px 40px;
+    line-height: 180%;
+}
 li h3 {
     display: flex;
     justify-content: start;
@@ -46,7 +51,6 @@ p, td {
 h3 {
     font-size:2rem;
 }
-
 .linkeliste {
     display:flex;
     color: white;
@@ -57,6 +61,11 @@ h3 {
 }
 .linkeliste li {
     list-style:none;
+    margin:10px;
+}
+.untere-leiste-divs {
+    display:flex;
+    justify-content: space-around;
 }
 .liste li {
     list-style:circle;
@@ -91,7 +100,6 @@ a:hover {
     right:50px;
     top:50px;
 }
-/* The actual popup */
 .popup .popuptext {
     visibility: hidden;
     width: auto;
@@ -126,7 +134,6 @@ a:hover {
 .hover:hover {
     transform:scale(1.5);
 }
-/* Popup arrow */
 .popup .popuptext::after {
     content: "";
     position: absolute;
@@ -137,19 +144,17 @@ a:hover {
     border-style: solid;
     border-color:  transparent transparent #555 transparent;
 }
-/* Toggle this class - hide and show the popup */
+
 .popup .show {
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
 }
 .popup:hover .show {
-    /*transform:scale(2);*/
     visibility: visible;
     -webkit-animation: fadeIn 1s;
     animation: fadeIn 1s;
 }
-  /* Add animation (fade in the popup) */
 @-webkit-keyframes fadeIn {
     from {opacity: 0;} 
     to {opacity: 1;}
@@ -169,4 +174,12 @@ a:hover {
     margin:30px;
     color:#2d96d3;
     font-size: 1rem;
+}
+.box {
+    overflow:auto;
+}
+.inner-box {
+    display: flex;
+    flex-direction: column;
+    margin:20px;
 }
