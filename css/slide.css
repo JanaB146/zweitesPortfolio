@@ -16,10 +16,10 @@ img {
 .slideshow-container {
     max-width: 1000px;
     height:1000px;
-    background: linear-gradient(to left, #a89e9e, #d1adad, #af9f9f, #c5b2b2) ;
+    background: linear-gradient(to left, #a9b1b6, #9cc2e3, #a7b6c0, #787b7e) ;
     position: relative;
     margin: auto;
-    overflow:auto;
+    overflow:hidden;
     padding:10px 20px;
 }
 
@@ -30,9 +30,9 @@ img {
     width: auto;
     padding: 30px;
     margin-top: -22px;
-    color: white;
+    color: rgb(79, 109, 162);
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -41,6 +41,10 @@ img {
 /* Position the "next button" to the right */
 .next, .next2{
     right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev, .prev2{
+    left:0;
     border-radius: 3px 0 0 3px;
 }
 
@@ -56,6 +60,10 @@ img {
     bottom: 8px;
     width: 100%;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(141, 137, 137, 0.615);
 }
 
 .numbertext {
@@ -87,12 +95,7 @@ img {
     animation-duration: 1.5s;
 }
 
-
 @keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
-}
-@keyframes fade2 {
     from {opacity: .4} 
     to {opacity: 1}
 }
