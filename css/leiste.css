@@ -1,9 +1,0 @@
-.part .body {
-    height: 100px;
-    margin: 20px;
-    display: grid;
-    grid-template-rows: 200px 100px;
-    grid-template-columns: 1fr 30px 30px 30px 30px 30px 1fr;
-    align-items: center;
-    justify-items: center;
-}

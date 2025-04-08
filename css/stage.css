@@ -186,10 +186,18 @@ a:hover {
     flex-direction: column;
     align-items: center;
 }
-.project-links:hover {
-    border: solid #1b4888 2px;
+.project-links {
+    border:solid transparent 5px;
+    border-radius: 8px;
     padding:50px;
+}
+.project-links:hover {
+    border: solid #1b4888 5px;
+    background:linear-gradient(to left, #2d2d33, #2d2d33, #2d2d33);
 }
 .erklärung {
     line-height: 130%;
+}
+footer {
+    margin-top: auto;
 }
