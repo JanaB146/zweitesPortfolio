@@ -186,6 +186,7 @@ a {
     margin:10px;
 }
 .untere-leiste-divs {
+    margin-top:50px;
     display:flex;
     justify-content: space-around;
 }

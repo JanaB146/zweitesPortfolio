@@ -21,6 +21,10 @@ hr {
     flex:none;
     width:100%;
 }
+.beschriftung {
+    color:#23242a;
+    line-height: 130%;
+}
 .mittig {
     font-size: 5rem;
     background: linear-gradient(to left,#45f3ff, #2d96d3, #1b4888, #3288d4, #254d9b, #45f3ff);
@@ -171,9 +175,7 @@ a:hover {
     color:#2d96d3;
     font-size: 1rem;
 }
-.box {
-    overflow:auto;
-}
+
 .inner-box {
     display: flex;
     flex-direction: column;
