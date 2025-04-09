@@ -1,20 +1,4 @@
-body {
-    background:linear-gradient(to left, #40424e, #23242a, #23242a, #23242a, #23242a, #3c3e49) ;
-    font-family: sans-serif;
-    min-height: 100vh;
-    display:flex;
-    flex-direction: column;
-}
-.part {
-    max-width: 1250px;
-    width: 100%;
-    background-color: #23242a;
-    margin: 0 auto;
-    font-family: sans-serif;
-    min-height: 100vh;
-    display:flex;
-    flex-direction: column;
-}
+
 hr {
     margin-top:50px;
     color: #45f3ff;
@@ -55,19 +39,7 @@ p, td {
 h3 {
     font-size:2rem;
 }
-.linkeliste {
-    display:flex;
-    color: white;
-    justify-content: space-around;
-    align-self:flex-end;
-}
-.linkeliste li {
-    list-style:none;
-    margin:10px;
-}
-.untere-leiste-divs {
-    display:flex;
-}
+
 .liste li {
     list-style:circle;
     color:white;
@@ -131,9 +103,7 @@ a:hover {
     padding:10px;
     border-radius: 7px;
 }
-.hover:hover {
-    transform:scale(1.5);
-}
+
 .popup .popuptext::after {
     content: "";
     position: absolute;
@@ -166,16 +136,6 @@ a:hover {
 #stage, .topbox, #documents, #reviews, #projects, #lebenslauf, .contact {
     margin: 40px 80px 100px 80px;
 }
-.arrow {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    margin:30px;
-    color:#2d96d3;
-    font-size: 1rem;
-}
-
 .inner-box {
     display: flex;
     flex-direction: column;
@@ -197,7 +157,4 @@ a:hover {
 }
 .erklärung {
     line-height: 130%;
-}
-footer {
-    margin-top: auto;
 }
